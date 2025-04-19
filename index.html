@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Woodland Republican</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Georgia', serif;
+            line-height: 1.5;
+            color: #3c2f2f;
+            margin: 0;
+	    background-image: url('bg.png');
+        }
+        h1, h2, h3 {
+            font-weight: 700;
+            line-height: 1.2;
+        }
+        h1 {
+            font-size: 2.5rem;
+        }
+        h2 {
+            font-size: 2rem;
+        }
+        h3 {
+            font-size: 1.75rem;
+        }
+        p {
+            margin-bottom: 1rem;
+        }
+        ul {
+            padding-left: 2rem;
+            margin-bottom: 1rem;
+        }
+        blockquote {
+            margin: 1rem 0;
+            font-style: italic;
+        }
+        .container {
+            width: 100%;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+        @media (min-width: 576px) {
+            .container {
+                max-width: 540px;
+            }
+        }
+        @media (min-width: 768px) {
+            .container {
+                max-width: 720px;
+            }
+        }
+        @media (min-width: 992px) {
+            .container {
+                max-width: 960px;
+            }
+        }
+
+        /* Custom Hatrack River styles */
+        .header {
+            background: linear-gradient(to bottom, #4a7070, #2bb3b3);
+            color: white;
+            padding: 3rem 0;
+            text-align: center;
+            border-bottom: 5px solid #3c2f2f;
+        }
+        .content {
+            background: #fffcf5;
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            margin: 2rem auto;
+        }
+        h2, h3 {
+            color: #4a7070;
+        }
+        .river-flow {
+            border-left: 3px solid #8bb381;
+            padding-left: 1rem;
+            margin: 1rem 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>The Woodland Republican</h1>
+        <p>Lorem ipsum dolor sit amet</p>
+    </div>
+    <div class="container">
+        <div class="content">
+            <h2>Welcome to the Woodland Republican</h2>
+            <p class="river-flow">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </p>
+            <h3>Flowing Thoughts</h3>
+            <p>
+                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+            <ul>
+                <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                <li>Sed do eiusmod tempor incididunt ut labore et dolore.</li>
+                <li>Ut enim ad minim veniam, quis nostrud exercitation.</li>
+            </ul>
+            <blockquote class="river-flow">
+                <p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...</p>
+            </blockquote>
+        </div>
+    </div>
+</body>
+</html>
